@@ -1,0 +1,28 @@
+{
+  "steps": [
+    {
+      "question": "Does HIC hold or have authority to access any data required for the study?",
+      "requirements": "NHS Caldicott Guardian approval letter, or for non-NHS written approval from Data Controller",
+      "next": "Yes",
+      "extra": "No"
+    },
+    {
+      "question": "Will the study use any identifiable data?",
+      "requirements": "NHS Caldicott Guardian approval letter, or for non-NHS written approval from Data Controller",
+      "next": "No",
+      "extra": "Yes"
+    },
+    {
+      "question": "Is the study research and does it make contact with people, e.g. patients?",
+      "requirements": "Sponsor approval and Favourable Ethical opinion letter",
+      "next": "No",
+      "extra": "Yes"
+    },
+    {
+      "question": "Is the study research and does it involve NHS?",
+      "requirements": "NHS R&D approval latter",
+      "next": "No",
+      "extra": "Yes"
+    }
+  ]
+}
