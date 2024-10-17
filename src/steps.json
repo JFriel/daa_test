@@ -1,6 +1,11 @@
 {
   "steps": [
     {
+      "question": "Are you making a new HIC Support Request?",
+      "requirements": "- Written Project Description defining cohort, methods & aims.\r\n- HIC Safe Haven users to sign HIC User Agreement",
+      "extra": "Yes"
+    },
+    {
       "question": "Does HIC hold or have authority to access any data required for the study?",
       "requirements": "NHS Caldicott Guardian approval letter, or for non-NHS written approval from Data Controller",
       "next": "Yes",
