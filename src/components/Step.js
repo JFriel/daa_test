@@ -64,7 +64,7 @@ function Step(props){
                 margin: 8,
                 textTransform: 'none',
                 backgroundColor:  showQuestion && nextStepText ==="Yes"?"rgb(1 209 124)": showQuestion &&nextStepText === "No"?"rgb(255 98 100)":null
-            }}><Typography>{showQuestion ? nextStepText : "Next"}</Typography></Button>}
+            }}><Typography>{showQuestion ? nextStepText : "Next Step"}</Typography></Button>}
             <Button variant={"contained"} onClick={onNo} style={{
                 margin: 8,
                 textTransform: 'none',
